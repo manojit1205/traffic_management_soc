@@ -1,0 +1,23 @@
+# Vivado generated files
+*.cache/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.sim/
+.Xil/
+
+# Temporary files
+*.jou
+*.log
+*.str
+*.wdb
+*.tmp
+*.bak
+
+# Generated FPGA files
+*.bit
+*.bin
+*.ltx
+*.mcs
+*.dcp
+*.pb
