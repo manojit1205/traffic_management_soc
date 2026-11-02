@@ -254,7 +254,6 @@ traffic_management_soc/
 ├── README.md
 │
 ├── traffic_management_soc.srcs/
-│   │
 │   ├── sources_1/
 │   │   └── new/
 │   │       ├── configurable_timer.v
@@ -267,21 +266,24 @@ traffic_management_soc/
 │   │       ├── uart_rx.v
 │   │       └── uart_tx.v
 │   │
-│   └── sim_1/
+│   ├── sim_1/
+│   │   └── new/
+│   │       ├── tb_configurable_timer.v
+│   │       ├── tb_i2c_master.v
+│   │       ├── tb_traffic_controller.v
+│   │       ├── tb_traffic_management_core.v
+│   │       ├── tb_traffic_management_soc.v
+│   │       ├── tb_traffic_sensor_interface.v
+│   │       ├── tb_uart_command_decoder.v
+│   │       └── tb_uart_loopback.v
+│   │
+│   └── constrs_1/
 │       └── new/
-│           ├── tb_configurable_timer.v
-│           ├── tb_i2c_master.v
-│           ├── tb_traffic_controller.v
-│           ├── tb_traffic_management_core.v
-│           ├── tb_traffic_management_soc.v
-│           ├── tb_traffic_sensor_interface.v
-│           ├── tb_uart_command_decoder.v
-│           └── tb_uart_loopback.v
+│           └── traffic_management_soc.xdc
 │
 └── docs/
-    ├── README.md
-    ├── traffic_sensor_waveform.png
     ├── simulation_test_results.png
+    ├── traffic_sensor_waveform.png
     └── vivado_utilization.png
 ```
 
