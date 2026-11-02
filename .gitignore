@@ -1,9 +1,9 @@
-# Vivado generated files
-*.cache/
-*.runs/
-*.hw/
-*.ip_user_files/
-*.sim/
+# Vivado generated folders
+traffic_management_soc.cache/
+traffic_management_soc.hw/
+traffic_management_soc.ip_user_files/
+traffic_management_soc.runs/
+traffic_management_soc.sim/
 .Xil/
 
 # Temporary files
